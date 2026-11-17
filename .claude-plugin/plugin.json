@@ -1,0 +1,6 @@
+{
+  "name": "pepe-stock",
+  "version": "0.1.0",
+  "description": "주가 1시간 등락률에 따라 표정이 바뀌는 페페 사이드 패널",
+  "types": "./types/index.d.ts"
+}

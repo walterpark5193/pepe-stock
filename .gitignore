@@ -1,0 +1,7 @@
+# 엔진이 모드를 로드할 때 옆에 써 주는 타입 파일(매번 다시 생김)
+.claude-plugin/types/
+# 파이썬 생성 스크립트 캐시
+__pycache__/
+*.pyc
+*.log
+.DS_Store

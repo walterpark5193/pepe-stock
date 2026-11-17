@@ -1,0 +1,17 @@
+{
+  "name": "pepe-stock",
+  "owner": { "name": "Workshop Participant" },
+  "metadata": {
+    "description": "주가 1시간 등락률에 따라 표정이 바뀌는 페페 사이드 패널 모드",
+    "version": "0.1.0"
+  },
+  "plugins": [
+    {
+      "name": "pepe-stock",
+      "source": "./",
+      "description": "/pepe <티커>로 종목을 정하면 5분봉 기준 1시간 등락률에 맞는 페페 표정을 사이드 패널에 그립니다.",
+      "category": "fun",
+      "tags": ["pepe", "stock", "pane", "yahoo-finance"]
+    }
+  ]
+}
