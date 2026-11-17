@@ -4,13 +4,13 @@
 
 ## 설치
 
-이 폴더가 그대로 마켓플레이스입니다(`.claude-plugin/marketplace.json`). 터미널 세션의 프롬프트에서:
+이 저장소가 그대로 마켓플레이스입니다(`.claude-plugin/marketplace.json`). 터미널 세션의 프롬프트에서:
 
 ```
-/plugin install pepe-stock --marketplace /home/ec2-user/claude-lab/pepe-stock
+/plugin install pepe-stock --marketplace walterpark5193/pepe-stock
 ```
 
-셸에서는 `claude plugin install pepe-stock --marketplace /home/ec2-user/claude-lab/pepe-stock`. GitHub에 올린 뒤에는 경로 대신 `<owner>/<repo>`를 씁니다. 설치 중에 마켓플레이스 추가 여부(`y`)와 범위를 묻습니다. 개발 중에는 `claude --plugin-dir /home/ec2-user/claude-lab/pepe-stock`으로 한 세션에만 올릴 수 있습니다.
+셸에서는 `claude plugin install pepe-stock --marketplace walterpark5193/pepe-stock`. 설치 중에 마켓플레이스 추가 여부(`y`)와 범위를 묻습니다. 데스크톱 앱에서는 프롬프트 옆 + → Plugins → Add marketplace에 `walterpark5193/pepe-stock`을 넣고 Add plugin을 누릅니다. 개발 중에는 저장소를 받아 `claude --plugin-dir <저장소 폴더>`로 한 세션에만 올릴 수 있습니다.
 
 ## 사용법
 
